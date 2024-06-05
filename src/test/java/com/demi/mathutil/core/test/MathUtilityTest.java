@@ -10,8 +10,8 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.Test;
 //quy ước đặt tên package của Java
 //tên miền dảo ngược, chữ thường 100%
-//com.tên-cty.tên-dự-án.tên-module.tên-clas-sẽ-dùng
-//com.microsoft.sqlservêr.jdbc
+//com.tên-cty.tên-dự-án.tên-module.tên-class-sẽ-dùng
+//com.microsoft.sqlserver.jdbc
 
 //C# viết chiều xuôi, chữ hoa từng đầu từ
 //Microsoft.Sqlserver...
@@ -77,10 +77,11 @@ public class MathUtilityTest {
             //Input n<0, n= -1
             //Exception result:Illega Argument Exception
             //nho quy uoc: mau xanh la ung voi tra ve nhu ki vong
-            //mau do laf : actual != ki vong
+            //mau do la : actual != ki vong
             //Ngoai le Exception ko la value, ta ko khai bao bien = ngoai le 
             // ko assertEquals (value value value)
-               assertThrows(IllegalArgumentException.class,     
-                    () -> {MathUtility.getFactorial(-1);} ); 
+        assertThrows(IllegalArgumentException.class,     
+            () -> {MathUtility.getFactorial(-1);} ); 
     }
+    
 }
