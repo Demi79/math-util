@@ -12,7 +12,13 @@ import javax.swing.JOptionPane;
  * @author phand
  */
 public class main {
-    public static void main(String[] args) {
+    
+    //this method is writen in local
+    public static void SayHiFromLocal(){
+      
+    }
+    
+    public static void main(String[] args) {  
         //Cách kiểm thử 2 - giống cách 1
         //Test case #1: Check if 0! returns 1
         int n = 0;
