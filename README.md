@@ -4,6 +4,7 @@
 * A Java Project (using Maven) to demostrate a Math library as in JDK 
 * A Unit Test test script using JUnit Test framework and TDD, DDT technique
 * A CI script to demostrate the Continuous Integration using GitHub Actions
+* A demonstration on what is the regression Test (kiểm thử hồi quy)
 * and more...
 ## Screenshots
 ![Source code and test script](https://github.com/Demi79/math-util/blob/main/screenshots/SourceCodeAndUnitTest.png)
